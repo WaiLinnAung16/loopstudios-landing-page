@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+<body>
+    <!-- Hero section start -->
+<header class="bg-img">
+      <!-- navbar start -->
+      <!-- position-fixed need wow js -->
+      <nav
+        class="navbar navbar-expand-lg bg-transparent w-100 mt-4"
+        style="z-index: 2000"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.svg" alt="logo" height="32" class="ms-2"/>
+          </a>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-lg-flex">
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#">Careers</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#">Events</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#">Products</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link text-white" href="#">Support</a>
+            </li>
+          </ul>
+          <div class="d-flex d-lg-none me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fs-1 text-white"></i>
+          </div>
+          <div class="offcanvas offcanvas-end d-flex d-lg-none" tabindex="-1" aria-labelledby="offcanvasRightLabel" id="offcanvasRight">
+            <div class="d-flex justify-content-between mt-5 px-4">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                <a class="navbar-brand" href="#">
+                  <img src="./images/logo.svg" alt="logo" height="32" class="ms-2"/>
+                </a>
+              </h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex align-items-center">
+                <ul class="navbar-nav" id="header">
+                  <li class="nav-item mb-3">
+                    <a class="text-white text-uppercase text-decoration-none fw-light fs-1 " href="#">About</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                    <a class="text-white text-uppercase text-decoration-none fw-light fs-1" href="#">Careers</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                    <a class="text-white text-uppercase text-decoration-none fw-light fs-1" href="#">Events</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                    <a class="text-white text-uppercase text-decoration-none fw-light fs-1" href="#">Products</a>
+                  </li>
+                  <li class="nav-item mb-3">
+                    <a class="text-white text-uppercase text-decoration-none fw-light fs-1" href="#">Support</a>
+                  </li>
+                </ul>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- Hero Content start-->
+      <div class="row justify-content-center align-items-center flex-column flex-md-row  vh-80">
+        <div class="col-10 col-lg-5 col-xxl-3">
+          <div class="card bg-transparent rounded-0 border-primary">
+            <div class="card-body p-4">
+              <div
+                class="card-title text-uppercase display-3 text-primary mb-0"
+              >
+                Immersive experiences that deliver
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- spacer -->
+        <div class="col-0 col-lg-4 col-xxl-3"></div>
+        <!-- spacer -->
+      </div>
+      <!-- Hero Content end-->
+    </header>
+    <!-- Hero section end -->
+<section class="container">
+      <div class="row justify-content-center align-items-center flex-column flex-md-row align-items-center vh-100">
+        <div class="col-12 col-lg-6 my-5 my-md-0">
+          <div class="hero-img">
+            <img
+              src="./images/desktop/image-interactive.jpg"
+              alt="img"
+              class="w-100"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="spacer p-5 d-none d-md-flex"></div>
+          <div class="card rounded-0 border-0">
+            <div class="card-body overlay-card-p text-center text-md-start">
+              <div class="card-title display-5 text-uppercase mb-4">
+                The leader in interactive VR
+              </div>
+              <div class="fw-bold text-black-50">
+                Founded in 2011, Loopstudios has been producing world-class
+                virtual reality projects for some of the best companies around
+                the globe. Our award-winning creations have transformed
+                businesses through digital experiences that bind to their brand.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<section class="container min-vh-100 py-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-12 col-md-10">
+          <div class="text-center text-md-start">
+            <h1 class="display-4 text-uppercase mb-0">Our Creations</h1>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 d-none d-md-flex">
+          <div class="desktop-btn">
+            <button class="btn btn-outline-dark text-uppercase fw-bold" style="letter-spacing: 4px">See All</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-deep-earth.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-deep-earth.jpg">
+              <img src="./images/desktop/image-deep-earth.jpg" alt="img" style="width: 100%">
+            </picture>
+              <div class="card-img-overlay">
+                <div class="card-text text-white h1 text-uppercase">
+                  <p class="mb-0">Deep <br> Earth</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-night-arcade.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-night-arcade.jpg">
+              <img src="./images/desktop/image-night-arcade.jpg" alt="img" style="width: 100%">
+            </picture>
+
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0">Night <br> Arcade</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-soccer-team.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-soccer-team.jpg">
+              <img src="./images/desktop/image-soccer-team.jpg" alt="img" style="width: 100%">
+            </picture>
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0">Soccer <br> Team Vr</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-grid.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-grid.jpg">
+              <img src="./images/desktop/image-grid.jpg" alt="img" style="width: 100%">
+            </picture>
+
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0">The <br> Grid</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-from-above.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-from-above.jpg">
+              <img src="./images/desktop/image-from-above.jpg" alt="img" style="width: 100%">
+            </picture>
+
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0">From Up <br> Above vr</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-pocket-borealis.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-pocket-borealis.jpg">
+              <img src="./images/desktop/image-pocket-borealis.jpg" alt="img" style="width: 100%">
+            </picture>
+
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0">Pocket <br> Borealis</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-curiosity.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-curiosity.jpg">
+              <img src="./images/desktop/image-curiosity.jpg" alt="img" style="width: 100%">
+            </picture>
+
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0">The <br> Curiosity</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 g-4">
+          <div class="card">
+            <picture>
+              <source srcset="./images/mobile/image-fisheye.jpg" media="(max-width: 576px)">
+              <source srcset="./images/desktop/image-fisheye.jpg">
+              <img src="./images/desktop/image-fisheye.jpg" alt="img" style="width: 100%">
+            </picture>
+            <div class="card-img-overlay">
+              <div class="card-text text-white h1 text-uppercase">
+                <p class="mb-0 card-custom-text">Make it <br> Fisheye</p>
+              </div>
+              <div class="p-5 bg-op-30"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 d-flex d-md-none mx-auto mt-5">
+          <div class="mobile-btn">
+            <button class="btn btn-outline-dark text-uppercase fw-bold text-center" style="letter-spacing: 4px">See All</button>
+          </div>
+        </div>
+      </div>
+</section>
+<footer class="container-fluid bg-secondary py-4 mt-5">
+  <div class="container mt-4">
+    <div class="row justify-content-between mb-4">
+      <div class="col-12 col-md-3">
+        <div class="text-center text-md-start">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.svg" alt="logo" height="30" />
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 d-none d-md-flex"></div>
+      <div class="col-12 col-md-3 d-none d-md-inline text-end">
+        <div class="">
+          <img src="./images/icon-facebook.svg" alt="fb" class="social-icon">
+          <img src="./images/icon-twitter.svg" alt="twt" class="social-icon">
+          <img src="./images/icon-pinterest.svg" alt="pt" class="social-icon">
+          <img src="./images/icon-instagram.svg" alt="ig" class="social-icon">
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-between flex-column flex-md-row">
+      <div class="col-12 col-md-4">
+        <div class="d-flex justify-content-between flex-column flex-md-row align-items-center">
+          <a class="nav-link text-white mb-3 mb-md-0" href="#">About</a>
+          <a class="nav-link text-white mb-3 mb-md-0" href="#">Careers</a>
+          <a class="nav-link text-white mb-3 mb-md-0" href="#">Events</a>
+          <a class="nav-link text-white mb-3 mb-md-0" href="#">Products</a>
+          <a class="nav-link text-white mb-3 mb-md-0" href="#">Support</a>
+        </div>
+      </div>
+      <div class="col-12 d-flex d-md-none justify-content-center">
+        <div class="">
+          <img src="./images/icon-facebook.svg" alt="fb"  class="social-icon">
+          <img src="./images/icon-twitter.svg" alt="twt" class="social-icon">
+          <img src="./images/icon-pinterest.svg" alt="pt" class="social-icon">
+          <img src="./images/icon-instagram.svg" alt="ig" class="social-icon">
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="text-white-50 text-center text-md-end">
+          <p>&copy; 2021 Loopstudios.All rights reversed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
